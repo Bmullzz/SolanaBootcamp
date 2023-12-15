@@ -2,7 +2,7 @@
 // Make me compile without changing the function signature!
 // Execute `rustlings hint strings1` for hints ;)
 
-// I AM NOT DONE
+// I AM DONE
 
 fn main() {
     let answer = current_favorite_course();
@@ -10,5 +10,6 @@ fn main() {
 }
 
 fn current_favorite_course() -> String {
-    "Solana"
+    let mut s = String::from("Solana");
+    return s;
 }
